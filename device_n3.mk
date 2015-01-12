@@ -15,7 +15,8 @@ else
 endif
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
+    device/oppo/n3/kernel:kernel \
+    device/oppo/n3/dtb:dtb
 
 $(call inherit-product, build/target/product/full.mk)
 
